@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		534410DB26EF694400EAE58D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534410DA26EF694400EAE58D /* AppDelegate.swift */; };
+		534410DD26EF694400EAE58D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534410DC26EF694400EAE58D /* SceneDelegate.swift */; };
+		534410DF26EF694400EAE58D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534410DE26EF694400EAE58D /* ContentView.swift */; };
+		534410E126EF694500EAE58D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 534410E026EF694500EAE58D /* Assets.xcassets */; };
+		534410E426EF694500EAE58D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 534410E326EF694500EAE58D /* Preview Assets.xcassets */; };
+		534410E726EF694500EAE58D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534410E526EF694500EAE58D /* LaunchScreen.storyboard */; };
+		534410F226EF694500EAE58D /* MinjaeCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534410F126EF694500EAE58D /* MinjaeCardTests.swift */; };
+		534410FD26EF694500EAE58D /* MinjaeCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534410FC26EF694500EAE58D /* MinjaeCardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		534410EE26EF694500EAE58D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 534410CF26EF694400EAE58D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 534410D626EF694400EAE58D;
+			remoteInfo = MinjaeCard;
+		};
+		534410F926EF694500EAE58D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 534410CF26EF694400EAE58D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 534410D626EF694400EAE58D;
+			remoteInfo = MinjaeCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		534410D726EF694400EAE58D /* MinjaeCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinjaeCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		534410DA26EF694400EAE58D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		534410DC26EF694400EAE58D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		534410DE26EF694400EAE58D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		534410E026EF694500EAE58D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		534410E326EF694500EAE58D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		534410E626EF694500EAE58D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		534410E826EF694500EAE58D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		534410ED26EF694500EAE58D /* MinjaeCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinjaeCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		534410F126EF694500EAE58D /* MinjaeCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinjaeCardTests.swift; sourceTree = "<group>"; };
+		534410F326EF694500EAE58D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		534410F826EF694500EAE58D /* MinjaeCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinjaeCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		534410FC26EF694500EAE58D /* MinjaeCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinjaeCardUITests.swift; sourceTree = "<group>"; };
+		534410FE26EF694500EAE58D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		534410D426EF694400EAE58D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		534410EA26EF694500EAE58D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		534410F526EF694500EAE58D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		534410CE26EF694400EAE58D = {
+			isa = PBXGroup;
+			children = (
+				534410D926EF694400EAE58D /* MinjaeCard */,
+				534410F026EF694500EAE58D /* MinjaeCardTests */,
+				534410FB26EF694500EAE58D /* MinjaeCardUITests */,
+				534410D826EF694400EAE58D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		534410D826EF694400EAE58D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				534410D726EF694400EAE58D /* MinjaeCard.app */,
+				534410ED26EF694500EAE58D /* MinjaeCardTests.xctest */,
+				534410F826EF694500EAE58D /* MinjaeCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		534410D926EF694400EAE58D /* MinjaeCard */ = {
+			isa = PBXGroup;
+			children = (
+				534410DA26EF694400EAE58D /* AppDelegate.swift */,
+				534410DC26EF694400EAE58D /* SceneDelegate.swift */,
+				534410DE26EF694400EAE58D /* ContentView.swift */,
+				534410E026EF694500EAE58D /* Assets.xcassets */,
+				534410E526EF694500EAE58D /* LaunchScreen.storyboard */,
+				534410E826EF694500EAE58D /* Info.plist */,
+				534410E226EF694500EAE58D /* Preview Content */,
+			);
+			path = MinjaeCard;
+			sourceTree = "<group>";
+		};
+		534410E226EF694500EAE58D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				534410E326EF694500EAE58D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		534410F026EF694500EAE58D /* MinjaeCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				534410F126EF694500EAE58D /* MinjaeCardTests.swift */,
+				534410F326EF694500EAE58D /* Info.plist */,
+			);
+			path = MinjaeCardTests;
+			sourceTree = "<group>";
+		};
+		534410FB26EF694500EAE58D /* MinjaeCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				534410FC26EF694500EAE58D /* MinjaeCardUITests.swift */,
+				534410FE26EF694500EAE58D /* Info.plist */,
+			);
+			path = MinjaeCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		534410D626EF694400EAE58D /* MinjaeCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5344110126EF694500EAE58D /* Build configuration list for PBXNativeTarget "MinjaeCard" */;
+			buildPhases = (
+				534410D326EF694400EAE58D /* Sources */,
+				534410D426EF694400EAE58D /* Frameworks */,
+				534410D526EF694400EAE58D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MinjaeCard;
+			productName = MinjaeCard;
+			productReference = 534410D726EF694400EAE58D /* MinjaeCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		534410EC26EF694500EAE58D /* MinjaeCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5344110426EF694500EAE58D /* Build configuration list for PBXNativeTarget "MinjaeCardTests" */;
+			buildPhases = (
+				534410E926EF694500EAE58D /* Sources */,
+				534410EA26EF694500EAE58D /* Frameworks */,
+				534410EB26EF694500EAE58D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				534410EF26EF694500EAE58D /* PBXTargetDependency */,
+			);
+			name = MinjaeCardTests;
+			productName = MinjaeCardTests;
+			productReference = 534410ED26EF694500EAE58D /* MinjaeCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		534410F726EF694500EAE58D /* MinjaeCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5344110726EF694500EAE58D /* Build configuration list for PBXNativeTarget "MinjaeCardUITests" */;
+			buildPhases = (
+				534410F426EF694500EAE58D /* Sources */,
+				534410F526EF694500EAE58D /* Frameworks */,
+				534410F626EF694500EAE58D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				534410FA26EF694500EAE58D /* PBXTargetDependency */,
+			);
+			name = MinjaeCardUITests;
+			productName = MinjaeCardUITests;
+			productReference = 534410F826EF694500EAE58D /* MinjaeCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		534410CF26EF694400EAE58D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					534410D626EF694400EAE58D = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					534410EC26EF694500EAE58D = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 534410D626EF694400EAE58D;
+					};
+					534410F726EF694500EAE58D = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 534410D626EF694400EAE58D;
+					};
+				};
+			};
+			buildConfigurationList = 534410D226EF694400EAE58D /* Build configuration list for PBXProject "MinjaeCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 534410CE26EF694400EAE58D;
+			productRefGroup = 534410D826EF694400EAE58D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				534410D626EF694400EAE58D /* MinjaeCard */,
+				534410EC26EF694500EAE58D /* MinjaeCardTests */,
+				534410F726EF694500EAE58D /* MinjaeCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		534410D526EF694400EAE58D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				534410E726EF694500EAE58D /* LaunchScreen.storyboard in Resources */,
+				534410E426EF694500EAE58D /* Preview Assets.xcassets in Resources */,
+				534410E126EF694500EAE58D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		534410EB26EF694500EAE58D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		534410F626EF694500EAE58D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		534410D326EF694400EAE58D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				534410DB26EF694400EAE58D /* AppDelegate.swift in Sources */,
+				534410DD26EF694400EAE58D /* SceneDelegate.swift in Sources */,
+				534410DF26EF694400EAE58D /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		534410E926EF694500EAE58D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				534410F226EF694500EAE58D /* MinjaeCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		534410F426EF694500EAE58D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				534410FD26EF694500EAE58D /* MinjaeCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		534410EF26EF694500EAE58D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 534410D626EF694400EAE58D /* MinjaeCard */;
+			targetProxy = 534410EE26EF694500EAE58D /* PBXContainerItemProxy */;
+		};
+		534410FA26EF694500EAE58D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 534410D626EF694400EAE58D /* MinjaeCard */;
+			targetProxy = 534410F926EF694500EAE58D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		534410E526EF694500EAE58D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				534410E626EF694500EAE58D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		534410FF26EF694500EAE58D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5344110026EF694500EAE58D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5344110226EF694500EAE58D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MinjaeCard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MinjaeCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.minjae.MinjaeCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5344110326EF694500EAE58D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MinjaeCard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MinjaeCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.minjae.MinjaeCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5344110526EF694500EAE58D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MinjaeCardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.minjae.MinjaeCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MinjaeCard.app/MinjaeCard";
+			};
+			name = Debug;
+		};
+		5344110626EF694500EAE58D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MinjaeCardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.minjae.MinjaeCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MinjaeCard.app/MinjaeCard";
+			};
+			name = Release;
+		};
+		5344110826EF694500EAE58D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MinjaeCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.minjae.MinjaeCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MinjaeCard;
+			};
+			name = Debug;
+		};
+		5344110926EF694500EAE58D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MinjaeCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.minjae.MinjaeCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MinjaeCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		534410D226EF694400EAE58D /* Build configuration list for PBXProject "MinjaeCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				534410FF26EF694500EAE58D /* Debug */,
+				5344110026EF694500EAE58D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5344110126EF694500EAE58D /* Build configuration list for PBXNativeTarget "MinjaeCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5344110226EF694500EAE58D /* Debug */,
+				5344110326EF694500EAE58D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5344110426EF694500EAE58D /* Build configuration list for PBXNativeTarget "MinjaeCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5344110526EF694500EAE58D /* Debug */,
+				5344110626EF694500EAE58D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5344110726EF694500EAE58D /* Build configuration list for PBXNativeTarget "MinjaeCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5344110826EF694500EAE58D /* Debug */,
+				5344110926EF694500EAE58D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 534410CF26EF694400EAE58D /* Project object */;
+}
